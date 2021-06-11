@@ -1,0 +1,38 @@
+{
+    "name": "finalproject",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "back": "nodemon server",
+        "front": "cd client && npm start",
+        "dev": "concurrently \"npm run front\" \"npm run back\"",
+        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "bootstrap": "^4.6.0",
+        "concurrently": "^6.1.0",
+        "dom": "0.0.3",
+        "dotenv": "^9.0.2",
+        "express": "^4.17.1",
+        "express-validator": "^6.11.1",
+        "jsonwebtoken": "^8.5.1",
+        "modal": "^1.2.0",
+        "mongoose": "^5.12.9",
+        "react": "^17.0.2",
+        "react-bootstrap": "^1.6.0",
+        "react-modal": "^3.13.1",
+        "react-rating-stars-component": "^2.2.0",
+        "react-redux": "^7.2.4",
+        "react-router-dom": "^5.2.0",
+        "redux": "^4.1.0",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}

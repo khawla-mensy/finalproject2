@@ -1,0 +1,6 @@
+export const GET_ALL_PRODUCTS = "GET_ALL_PRODUCTS";
+export const TOGGLE_TRUE = "TOGGLE_TRUE";
+export const TOGGLE_FALSE = "TOGGLE_FALSE";
+export const GET_PRODUCT = "GET_PRODUCT";
+export const PRODUCT_EDITED = "PRODUCT_EDITED";
+export const PRODUCT_DELETED = "PRODUCT_DELETED";

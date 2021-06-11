@@ -1,0 +1,58 @@
+.Descriptionduproduit {
+    margin: 2%;
+}
+#productcardandpostcomment {
+    display: flex;
+}
+#ProductCard {
+    margin-top: 3%;
+}
+
+#editproduct {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+.titleandproductcard {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.Descriptiondetailsimageproduit {
+    display: flex;
+
+    align-items: flex-start;
+}
+
+#buttonsubmit {
+    height: 30px;
+}
+
+.deleteeditadd {
+    display: flex;
+    margin-top: 50px;
+}
+.postcommentbutton {
+    display: flex;
+    margin-top: 30%;
+    margin-left: 5%;
+}
+h1 {
+    font-style: italic;
+    font-family: "Lucida Sans";
+    color: brown;
+}
+.loading {
+    color: black;
+}
+.DescriptionDetailProduit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.DescriptionImageProduit {
+    display: flex;
+    justify-content: flex-start;
+}

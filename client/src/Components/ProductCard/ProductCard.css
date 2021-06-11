@@ -1,0 +1,85 @@
+body {
+    background: #e0e0e0;
+}
+
+.details {
+    border: 1.5px solid grey;
+    color: #212121;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 10px #212121;
+}
+
+.cart {
+    background-color: #212121;
+    color: white;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 900;
+    width: 40%;
+    height: 30px;
+    padding-top: 9px;
+    box-shadow: 0px 5px 10px #212121;
+}
+
+.ProductCard {
+    width: 22%;
+    background-color: #fff;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 20px black;
+    transition: all 0.5s ease;
+}
+.ProductCard:hover .ProductDetails {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.ProductDetails {
+    cursor: pointer;
+    height: 5vh;
+    width: 70%;
+    background-color: rgb(243, 230, 230);
+    margin-bottom: 10%;
+    transition: all 0.5s ease;
+    opacity: 0;
+
+    transform: translateY(20px);
+}
+
+.card-body {
+    padding: 20px 7px 7px 7px;
+    line-height: 50px;
+    text-decoration: none;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    text-align: center;
+    overflow: hidden;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.img-thumbnail {
+    border: none;
+}
+
+.card {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+.Images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img :hover {
+    transform: translateY(20px);
+}

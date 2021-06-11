@@ -1,0 +1,61 @@
+.Buttons {
+    padding: 2%;
+    margin: 0%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(170, 163, 153);
+}
+.button {
+    font-size: 20px;
+    padding: 16px;
+    border-radius: 30%;
+    transition-duration: 0.4s;
+}
+.nbr {
+    display: flex;
+    justify-content: center;
+}
+.qtity {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttondlt {
+    font-size: 20px;
+    padding: 16px;
+    border-radius: 30%;
+    transition-duration: 0.4s;
+}
+
+.buttondlt:hover {
+    background-color: #df1717;
+    color: white;
+}
+
+.button:hover {
+    background-color: #22c522;
+    color: white;
+}
+.itemdetails {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.Cart {
+    display: flex;
+
+    background-color: #fff;
+    box-shadow: 0px 0px 20px black;
+
+    margin: 5% auto;
+    width: 80%;
+    height: 50vh;
+}
+
+.generaldiv {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}

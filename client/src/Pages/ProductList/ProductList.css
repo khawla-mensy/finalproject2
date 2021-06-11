@@ -1,0 +1,25 @@
+.products-content {
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.general {
+    margin-top: 20px;
+}
+.Search {
+    display: flex;
+    justify-content: center;
+    margin-top: 10;
+}
+.btn {
+    height: 32px;
+    width: 80px;
+}
+.products-list {
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8% 8%;
+}

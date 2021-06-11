@@ -1,0 +1,18 @@
+.my-form {
+    margin: 5% 30%;
+    background-color: #daa6b3;
+    padding: 4%;
+    border-radius: 15px;
+}
+
+.edit-btn {
+    font-size: 20px;
+    padding: 16px;
+    border-radius: 30%;
+    transition-duration: 0.4s;
+}
+
+.edit-btn:hover {
+    background-color: #22c522;
+    color: white;
+}
